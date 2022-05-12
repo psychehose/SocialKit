@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA7CD47282C9F7B0019D999 /* SocialKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA7CD46282C9F7B0019D999 /* SocialKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA7CD84282C9FC70019D999 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD4F282C9FC70019D999 /* Auth.swift */; };
+		3FA7CD85282C9FC70019D999 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD50282C9FC70019D999 /* AuthApi.swift */; };
+		3FA7CD86282C9FC70019D999 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD51282C9FC70019D999 /* TokenManager.swift */; };
+		3FA7CD87282C9FC70019D999 /* AuthRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD52282C9FC70019D999 /* AuthRequestAdapter.swift */; };
+		3FA7CD88282C9FC70019D999 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD53282C9FC70019D999 /* AuthController.swift */; };
+		3FA7CD89282C9FC70019D999 /* AuthRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD54282C9FC70019D999 /* AuthRequestRetrier.swift */; };
+		3FA7CD8A282C9FC70019D999 /* MigrateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD55282C9FC70019D999 /* MigrateManager.swift */; };
+		3FA7CD8B282C9FC70019D999 /* TokenManagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD56282C9FC70019D999 /* TokenManagable.swift */; };
+		3FA7CD8D282C9FC70019D999 /* OAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD59282C9FC70019D999 /* OAuthToken.swift */; };
+		3FA7CD8E282C9FC70019D999 /* KakaoSDKAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA7CD5A282C9FC70019D999 /* KakaoSDKAuth.h */; };
+		3FA7CD90282C9FC70019D999 /* ApiRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD5E282C9FC70019D999 /* ApiRequestAdapter.swift */; };
+		3FA7CD91282C9FC70019D999 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD5F282C9FC70019D999 /* Api.swift */; };
+		3FA7CD93282C9FC70019D999 /* EncodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD63282C9FC70019D999 /* EncodingContainer+AnyCollection.swift */; };
+		3FA7CD94282C9FC70019D999 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD64282C9FC70019D999 /* URL+Utils.swift */; };
+		3FA7CD95282C9FC70019D999 /* Data+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD65282C9FC70019D999 /* Data+Utils.swift */; };
+		3FA7CD96282C9FC70019D999 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD66282C9FC70019D999 /* Array+Utils.swift */; };
+		3FA7CD97282C9FC70019D999 /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD67282C9FC70019D999 /* Dictionary+Utils.swift */; };
+		3FA7CD98282C9FC70019D999 /* DecodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD68282C9FC70019D999 /* DecodingContainer+AnyCollection.swift */; };
+		3FA7CD99282C9FC70019D999 /* UIApplication+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD69282C9FC70019D999 /* UIApplication+Utils.swift */; };
+		3FA7CD9A282C9FC70019D999 /* SdkCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD6B282C9FC70019D999 /* SdkCrypto.swift */; };
+		3FA7CD9B282C9FC70019D999 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD6C282C9FC70019D999 /* Properties.swift */; };
+		3FA7CD9C282C9FC70019D999 /* SdkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD6D282C9FC70019D999 /* SdkUtils.swift */; };
+		3FA7CD9D282C9FC70019D999 /* SdkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD6E282C9FC70019D999 /* SdkLog.swift */; };
+		3FA7CD9E282C9FC70019D999 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD6F282C9FC70019D999 /* Common.swift */; };
+		3FA7CD9F282C9FC70019D999 /* SdkCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD70282C9FC70019D999 /* SdkCoder.swift */; };
+		3FA7CDA0282C9FC70019D999 /* SdkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD71282C9FC70019D999 /* SdkError.swift */; };
+		3FA7CDA1282C9FC70019D999 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD72282C9FC70019D999 /* Urls.swift */; };
+		3FA7CDA2282C9FC70019D999 /* AuthErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD74282C9FC70019D999 /* AuthErrorInfo.swift */; };
+		3FA7CDA3282C9FC70019D999 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD75282C9FC70019D999 /* ErrorInfo.swift */; };
+		3FA7CDA4282C9FC70019D999 /* KakaoSDKCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD76282C9FC70019D999 /* KakaoSDKCommon.swift */; };
+		3FA7CDA5282C9FC70019D999 /* KakaoSDKCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA7CD77282C9FC70019D999 /* KakaoSDKCommon.h */; };
+		3FA7CDA7282C9FC70019D999 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD7A282C9FC70019D999 /* UserApi.swift */; };
+		3FA7CDA9282C9FC70019D999 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD7D282C9FC70019D999 /* Scope.swift */; };
+		3FA7CDAA282C9FC70019D999 /* AccessTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD7E282C9FC70019D999 /* AccessTokenInfo.swift */; };
+		3FA7CDAB282C9FC70019D999 /* UserShippingAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD7F282C9FC70019D999 /* UserShippingAddresses.swift */; };
+		3FA7CDAC282C9FC70019D999 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD80282C9FC70019D999 /* User.swift */; };
+		3FA7CDAD282C9FC70019D999 /* UserServiceTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA7CD81282C9FC70019D999 /* UserServiceTerms.swift */; };
+		3FA7CDAF282C9FC70019D999 /* KakaoSDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA7CD83282C9FC70019D999 /* KakaoSDKUser.h */; };
+		3FA7CDB2282CA0600019D999 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA7CDB1282CA0600019D999 /* Alamofire.xcframework */; };
+		3FA7CDB3282CA0600019D999 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA7CDB1282CA0600019D999 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FA7CDB4282CA0600019D999 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3FA7CDB3282CA0600019D999 /* Alamofire.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FA7CD43282C9F7B0019D999 /* SocialKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA7CD46282C9F7B0019D999 /* SocialKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialKit.h; sourceTree = "<group>"; };
+		3FA7CD4F282C9FC70019D999 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		3FA7CD50282C9FC70019D999 /* AuthApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		3FA7CD51282C9FC70019D999 /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		3FA7CD52282C9FC70019D999 /* AuthRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRequestAdapter.swift; sourceTree = "<group>"; };
+		3FA7CD53282C9FC70019D999 /* AuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		3FA7CD54282C9FC70019D999 /* AuthRequestRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRequestRetrier.swift; sourceTree = "<group>"; };
+		3FA7CD55282C9FC70019D999 /* MigrateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MigrateManager.swift; sourceTree = "<group>"; };
+		3FA7CD56282C9FC70019D999 /* TokenManagable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManagable.swift; sourceTree = "<group>"; };
+		3FA7CD57282C9FC70019D999 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FA7CD59282C9FC70019D999 /* OAuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthToken.swift; sourceTree = "<group>"; };
+		3FA7CD5A282C9FC70019D999 /* KakaoSDKAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKAuth.h; sourceTree = "<group>"; };
+		3FA7CD5B282C9FC70019D999 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA7CD5E282C9FC70019D999 /* ApiRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequestAdapter.swift; sourceTree = "<group>"; };
+		3FA7CD5F282C9FC70019D999 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		3FA7CD60282C9FC70019D999 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FA7CD63282C9FC70019D999 /* EncodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EncodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
+		3FA7CD64282C9FC70019D999 /* URL+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Utils.swift"; sourceTree = "<group>"; };
+		3FA7CD65282C9FC70019D999 /* Data+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Utils.swift"; sourceTree = "<group>"; };
+		3FA7CD66282C9FC70019D999 /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		3FA7CD67282C9FC70019D999 /* Dictionary+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Utils.swift"; sourceTree = "<group>"; };
+		3FA7CD68282C9FC70019D999 /* DecodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DecodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
+		3FA7CD69282C9FC70019D999 /* UIApplication+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Utils.swift"; sourceTree = "<group>"; };
+		3FA7CD6B282C9FC70019D999 /* SdkCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkCrypto.swift; sourceTree = "<group>"; };
+		3FA7CD6C282C9FC70019D999 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		3FA7CD6D282C9FC70019D999 /* SdkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkUtils.swift; sourceTree = "<group>"; };
+		3FA7CD6E282C9FC70019D999 /* SdkLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkLog.swift; sourceTree = "<group>"; };
+		3FA7CD6F282C9FC70019D999 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		3FA7CD70282C9FC70019D999 /* SdkCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkCoder.swift; sourceTree = "<group>"; };
+		3FA7CD71282C9FC70019D999 /* SdkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkError.swift; sourceTree = "<group>"; };
+		3FA7CD72282C9FC70019D999 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		3FA7CD74282C9FC70019D999 /* AuthErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthErrorInfo.swift; sourceTree = "<group>"; };
+		3FA7CD75282C9FC70019D999 /* ErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
+		3FA7CD76282C9FC70019D999 /* KakaoSDKCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoSDKCommon.swift; sourceTree = "<group>"; };
+		3FA7CD77282C9FC70019D999 /* KakaoSDKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKCommon.h; sourceTree = "<group>"; };
+		3FA7CD78282C9FC70019D999 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA7CD7A282C9FC70019D999 /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		3FA7CD7B282C9FC70019D999 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FA7CD7D282C9FC70019D999 /* Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scope.swift; sourceTree = "<group>"; };
+		3FA7CD7E282C9FC70019D999 /* AccessTokenInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenInfo.swift; sourceTree = "<group>"; };
+		3FA7CD7F282C9FC70019D999 /* UserShippingAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserShippingAddresses.swift; sourceTree = "<group>"; };
+		3FA7CD80282C9FC70019D999 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3FA7CD81282C9FC70019D999 /* UserServiceTerms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServiceTerms.swift; sourceTree = "<group>"; };
+		3FA7CD82282C9FC70019D999 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA7CD83282C9FC70019D999 /* KakaoSDKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKUser.h; sourceTree = "<group>"; };
+		3FA7CDB1282CA0600019D999 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA7CD40282C9F7B0019D999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA7CDB2282CA0600019D999 /* Alamofire.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA7CD39282C9F7B0019D999 = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD45282C9F7B0019D999 /* SocialKit */,
+				3FA7CD44282C9F7B0019D999 /* Products */,
+				3FA7CDB0282CA0600019D999 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA7CD44282C9F7B0019D999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD43282C9F7B0019D999 /* SocialKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA7CD45282C9F7B0019D999 /* SocialKit */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD4D282C9FC70019D999 /* KakaoSDKAuth */,
+				3FA7CD5C282C9FC70019D999 /* KakaoSDKCommon */,
+				3FA7CD79282C9FC70019D999 /* KakaoSDKUser */,
+				3FA7CD46282C9F7B0019D999 /* SocialKit.h */,
+			);
+			path = SocialKit;
+			sourceTree = "<group>";
+		};
+		3FA7CD4D282C9FC70019D999 /* KakaoSDKAuth */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD4E282C9FC70019D999 /* auth */,
+				3FA7CD57282C9FC70019D999 /* README.md */,
+				3FA7CD58282C9FC70019D999 /* model */,
+				3FA7CD5A282C9FC70019D999 /* KakaoSDKAuth.h */,
+				3FA7CD5B282C9FC70019D999 /* Info.plist */,
+			);
+			path = KakaoSDKAuth;
+			sourceTree = "<group>";
+		};
+		3FA7CD4E282C9FC70019D999 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD4F282C9FC70019D999 /* Auth.swift */,
+				3FA7CD50282C9FC70019D999 /* AuthApi.swift */,
+				3FA7CD51282C9FC70019D999 /* TokenManager.swift */,
+				3FA7CD52282C9FC70019D999 /* AuthRequestAdapter.swift */,
+				3FA7CD53282C9FC70019D999 /* AuthController.swift */,
+				3FA7CD54282C9FC70019D999 /* AuthRequestRetrier.swift */,
+				3FA7CD55282C9FC70019D999 /* MigrateManager.swift */,
+				3FA7CD56282C9FC70019D999 /* TokenManagable.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		3FA7CD58282C9FC70019D999 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD59282C9FC70019D999 /* OAuthToken.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3FA7CD5C282C9FC70019D999 /* KakaoSDKCommon */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD5D282C9FC70019D999 /* network */,
+				3FA7CD60282C9FC70019D999 /* README.md */,
+				3FA7CD61282C9FC70019D999 /* common */,
+				3FA7CD77282C9FC70019D999 /* KakaoSDKCommon.h */,
+				3FA7CD78282C9FC70019D999 /* Info.plist */,
+			);
+			path = KakaoSDKCommon;
+			sourceTree = "<group>";
+		};
+		3FA7CD5D282C9FC70019D999 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD5E282C9FC70019D999 /* ApiRequestAdapter.swift */,
+				3FA7CD5F282C9FC70019D999 /* Api.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		3FA7CD61282C9FC70019D999 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD62282C9FC70019D999 /* extension */,
+				3FA7CD6A282C9FC70019D999 /* common */,
+				3FA7CD73282C9FC70019D999 /* model */,
+				3FA7CD76282C9FC70019D999 /* KakaoSDKCommon.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		3FA7CD62282C9FC70019D999 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD63282C9FC70019D999 /* EncodingContainer+AnyCollection.swift */,
+				3FA7CD64282C9FC70019D999 /* URL+Utils.swift */,
+				3FA7CD65282C9FC70019D999 /* Data+Utils.swift */,
+				3FA7CD66282C9FC70019D999 /* Array+Utils.swift */,
+				3FA7CD67282C9FC70019D999 /* Dictionary+Utils.swift */,
+				3FA7CD68282C9FC70019D999 /* DecodingContainer+AnyCollection.swift */,
+				3FA7CD69282C9FC70019D999 /* UIApplication+Utils.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		3FA7CD6A282C9FC70019D999 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD6B282C9FC70019D999 /* SdkCrypto.swift */,
+				3FA7CD6C282C9FC70019D999 /* Properties.swift */,
+				3FA7CD6D282C9FC70019D999 /* SdkUtils.swift */,
+				3FA7CD6E282C9FC70019D999 /* SdkLog.swift */,
+				3FA7CD6F282C9FC70019D999 /* Common.swift */,
+				3FA7CD70282C9FC70019D999 /* SdkCoder.swift */,
+				3FA7CD71282C9FC70019D999 /* SdkError.swift */,
+				3FA7CD72282C9FC70019D999 /* Urls.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		3FA7CD73282C9FC70019D999 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD74282C9FC70019D999 /* AuthErrorInfo.swift */,
+				3FA7CD75282C9FC70019D999 /* ErrorInfo.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3FA7CD79282C9FC70019D999 /* KakaoSDKUser */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD7A282C9FC70019D999 /* UserApi.swift */,
+				3FA7CD7B282C9FC70019D999 /* README.md */,
+				3FA7CD7C282C9FC70019D999 /* model */,
+				3FA7CD82282C9FC70019D999 /* Info.plist */,
+				3FA7CD83282C9FC70019D999 /* KakaoSDKUser.h */,
+			);
+			path = KakaoSDKUser;
+			sourceTree = "<group>";
+		};
+		3FA7CD7C282C9FC70019D999 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CD7D282C9FC70019D999 /* Scope.swift */,
+				3FA7CD7E282C9FC70019D999 /* AccessTokenInfo.swift */,
+				3FA7CD7F282C9FC70019D999 /* UserShippingAddresses.swift */,
+				3FA7CD80282C9FC70019D999 /* User.swift */,
+				3FA7CD81282C9FC70019D999 /* UserServiceTerms.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3FA7CDB0282CA0600019D999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA7CDB1282CA0600019D999 /* Alamofire.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FA7CD3E282C9F7B0019D999 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA7CDAF282C9FC70019D999 /* KakaoSDKUser.h in Headers */,
+				3FA7CDA5282C9FC70019D999 /* KakaoSDKCommon.h in Headers */,
+				3FA7CD47282C9F7B0019D999 /* SocialKit.h in Headers */,
+				3FA7CD8E282C9FC70019D999 /* KakaoSDKAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FA7CD42282C9F7B0019D999 /* SocialKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA7CD4A282C9F7B0019D999 /* Build configuration list for PBXNativeTarget "SocialKit" */;
+			buildPhases = (
+				3FA7CD3E282C9F7B0019D999 /* Headers */,
+				3FA7CD3F282C9F7B0019D999 /* Sources */,
+				3FA7CD40282C9F7B0019D999 /* Frameworks */,
+				3FA7CD41282C9F7B0019D999 /* Resources */,
+				3FA7CDB4282CA0600019D999 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialKit;
+			productName = SocialKit;
+			productReference = 3FA7CD43282C9F7B0019D999 /* SocialKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA7CD3A282C9F7B0019D999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3FA7CD42282C9F7B0019D999 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 3FA7CD3D282C9F7B0019D999 /* Build configuration list for PBXProject "SocialKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA7CD39282C9F7B0019D999;
+			productRefGroup = 3FA7CD44282C9F7B0019D999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA7CD42282C9F7B0019D999 /* SocialKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA7CD41282C9F7B0019D999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA7CD3F282C9F7B0019D999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA7CD99282C9FC70019D999 /* UIApplication+Utils.swift in Sources */,
+				3FA7CD9D282C9FC70019D999 /* SdkLog.swift in Sources */,
+				3FA7CD8B282C9FC70019D999 /* TokenManagable.swift in Sources */,
+				3FA7CD93282C9FC70019D999 /* EncodingContainer+AnyCollection.swift in Sources */,
+				3FA7CDA0282C9FC70019D999 /* SdkError.swift in Sources */,
+				3FA7CD85282C9FC70019D999 /* AuthApi.swift in Sources */,
+				3FA7CD97282C9FC70019D999 /* Dictionary+Utils.swift in Sources */,
+				3FA7CD95282C9FC70019D999 /* Data+Utils.swift in Sources */,
+				3FA7CD9C282C9FC70019D999 /* SdkUtils.swift in Sources */,
+				3FA7CD9F282C9FC70019D999 /* SdkCoder.swift in Sources */,
+				3FA7CD96282C9FC70019D999 /* Array+Utils.swift in Sources */,
+				3FA7CDA2282C9FC70019D999 /* AuthErrorInfo.swift in Sources */,
+				3FA7CD98282C9FC70019D999 /* DecodingContainer+AnyCollection.swift in Sources */,
+				3FA7CD9B282C9FC70019D999 /* Properties.swift in Sources */,
+				3FA7CDAD282C9FC70019D999 /* UserServiceTerms.swift in Sources */,
+				3FA7CD8D282C9FC70019D999 /* OAuthToken.swift in Sources */,
+				3FA7CDAA282C9FC70019D999 /* AccessTokenInfo.swift in Sources */,
+				3FA7CD9A282C9FC70019D999 /* SdkCrypto.swift in Sources */,
+				3FA7CDA3282C9FC70019D999 /* ErrorInfo.swift in Sources */,
+				3FA7CD89282C9FC70019D999 /* AuthRequestRetrier.swift in Sources */,
+				3FA7CD86282C9FC70019D999 /* TokenManager.swift in Sources */,
+				3FA7CD91282C9FC70019D999 /* Api.swift in Sources */,
+				3FA7CD9E282C9FC70019D999 /* Common.swift in Sources */,
+				3FA7CDA7282C9FC70019D999 /* UserApi.swift in Sources */,
+				3FA7CD88282C9FC70019D999 /* AuthController.swift in Sources */,
+				3FA7CDAC282C9FC70019D999 /* User.swift in Sources */,
+				3FA7CDA9282C9FC70019D999 /* Scope.swift in Sources */,
+				3FA7CD90282C9FC70019D999 /* ApiRequestAdapter.swift in Sources */,
+				3FA7CD8A282C9FC70019D999 /* MigrateManager.swift in Sources */,
+				3FA7CD94282C9FC70019D999 /* URL+Utils.swift in Sources */,
+				3FA7CDA4282C9FC70019D999 /* KakaoSDKCommon.swift in Sources */,
+				3FA7CDAB282C9FC70019D999 /* UserShippingAddresses.swift in Sources */,
+				3FA7CDA1282C9FC70019D999 /* Urls.swift in Sources */,
+				3FA7CD84282C9FC70019D999 /* Auth.swift in Sources */,
+				3FA7CD87282C9FC70019D999 /* AuthRequestAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA7CD48282C9F7B0019D999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA7CD49282C9F7B0019D999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA7CD4B282C9F7B0019D999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V8U2Z9RRMZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Hose.SocialKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA7CD4C282C9F7B0019D999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V8U2Z9RRMZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Hose.SocialKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA7CD3D282C9F7B0019D999 /* Build configuration list for PBXProject "SocialKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA7CD48282C9F7B0019D999 /* Debug */,
+				3FA7CD49282C9F7B0019D999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA7CD4A282C9F7B0019D999 /* Build configuration list for PBXNativeTarget "SocialKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA7CD4B282C9F7B0019D999 /* Debug */,
+				3FA7CD4C282C9F7B0019D999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA7CD3A282C9F7B0019D999 /* Project object */;
+}
